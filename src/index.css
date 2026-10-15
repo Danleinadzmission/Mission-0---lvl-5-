@@ -1,0 +1,34 @@
+:root {
+  --ink: #0e2a33;
+  --teal: #0f4c5c;
+  --teal-dark: #0a3641;
+  --kowhai: #f2b705;
+  --mist: #eef4f5;
+  --white: #ffffff;
+  --font-head: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "Source Sans 3", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--mist);
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+:focus-visible {
+  outline: 3px solid var(--kowhai);
+  outline-offset: 2px;
+}
