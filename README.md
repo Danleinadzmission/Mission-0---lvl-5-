@@ -1,16 +1,25 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive home page prototype for Marketing Association New Zealand's new digital news site, built from the wireframes in the project brief.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Header with logo, menu links and a Login button
+- Hamburger menu on mobile
+- Hero section with headline, search bar and image
+- Three story cards below the hero
+- Responsive layout for desktop, tablet and mobile
 
-## React Compiler
+## How to run
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
 
-## Expanding the Oxlint configuration
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Responsive design
+
+- Desktop: full navigation, hero text beside the image, three cards in a row
+- Tablet (900px and under): cards move to two columns
+- Mobile (720px and under): hamburger menu, search input and button stacked, hero image hidden, cards in one column
